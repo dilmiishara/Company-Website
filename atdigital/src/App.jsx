@@ -3,6 +3,8 @@ import TopNavbar from "./components/TopNavbar";
 import Header from "./components/Header";
 import Button from "./components/Button";
 import { assets } from "./assets/assets";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -62,7 +64,8 @@ const App = () => {
           </div>
         </section>
       </main>
-      
+      <FAQ/>
+      <Footer/>
     </div>
   );
 };
