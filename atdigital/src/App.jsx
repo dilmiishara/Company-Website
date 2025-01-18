@@ -3,6 +3,7 @@ import TopNavbar from "./components/TopNavbar";
 import Header from "./components/Header";
 import Button from "./components/Button";
 import { assets } from "./assets/assets";
+import FAQ from "./components/FAQ";
 
 const App = () => {
   return (
@@ -62,7 +63,7 @@ const App = () => {
           </div>
         </section>
       </main>
-      
+      <FAQ/>
     </div>
   );
 };
